@@ -1,0 +1,2 @@
+rootProject.name='Dozee App'
+include ':app'

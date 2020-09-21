@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_chevron_left_black_24dp"
+            android:id="@+id/previousdate"
+            android:layout_margin="5dp"
+            android:background="@android:color/transparent"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15-August-2015"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:id="@+id/date"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_chevron_right_black_24dp"
+            android:id="@+id/nextdate"
+            android:layout_margin="5dp"
+            android:background="@android:color/transparent"/>
+
+
+    </LinearLayout>
+
+
+<GridLayout
+        android:columnCount="2"
+        android:rowCount="3"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="false"
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:layout_weight="8"
+        android:backgroundTint="#e1f5fe"
+        android:soundEffectsEnabled="true"
+        android:padding="14dp">
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp"
+            android:id="@+id/heartmeasuregraph"
+            android:clickable="true"
+
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/search_gradient"
+                >
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:gravity="center"
+
+                    android:id="@+id/heartstats">
+                    <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                        android:id="@+id/heart"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:layout_centerHorizontal="true"
+                        app:background_progressbar_color="#FFCDD2"
+                        app:background_progressbar_width="6dp"
+                        app:progressbar_color="#F44336"
+                        app:progress="50"
+                        app:progressbar_width="6dp" />
+
+                    <TextView
+                        android:id="@+id/heartmeasure"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="70\nBPM"
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp"
+
+                        android:textStyle="bold"/>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/heartstats"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="60dp"
+                        android:src="@drawable/ic_heart"
+                        android:layout_marginTop="20dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:id="@+id/heartinfo"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/ic_keyboard_arrow_right_black_24dp"/>
+
+                </LinearLayout>
+
+
+
+
+            </RelativeLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp"
+            android:id="@+id/bpmcard"
+            android:clickable="true"
+            android:backgroundTint="#e0f7fa"
+            >
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/search_gradient"
+                >
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:gravity="center"
+
+                    android:id="@+id/Bpm">
+                    <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                        android:id="@+id/bpmmeasure"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:layout_centerHorizontal="true"
+                        app:background_progressbar_color="#FFCDD2"
+                        app:background_progressbar_width="6dp"
+                        app:progressbar_color="#F44336"
+                        app:progress="50"
+                        app:progressbar_width="6dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="19\nBPM"
+                        android:id="@+id/averagebreatherate"
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Bpm"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_bpm"
+                        android:layout_marginTop="20dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:id="@+id/Breathinfo"
+                        android:src="@drawable/ic_keyboard_arrow_right_black_24dp"/>
+
+                </LinearLayout>
+
+
+
+
+            </RelativeLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:id="@+id/oxygencard"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp"
+
+
+            android:clickable="true"
+            >
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/search_gradient"
+                >
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:gravity="center"
+                    android:id="@+id/oxygen">
+                    <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                        android:id="@+id/oxygenmeasure"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:layout_centerHorizontal="true"
+                        app:background_progressbar_color="#FFCDD2"
+                        app:background_progressbar_width="6dp"
+                        app:progressbar_color="#F44336"
+                        app:progress="50"
+                        app:progressbar_width="6dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="80%"
+                        android:id="@+id/oxygenmeasurement"
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/oxygen"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_oxygen"
+                        android:layout_marginTop="20dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:id="@+id/oxygeninfo"
+                        android:src="@drawable/ic_keyboard_arrow_right_black_24dp"/>
+
+                </LinearLayout>
+
+
+
+
+            </RelativeLayout>
+
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp"
+
+android:id="@+id/bpcards"
+            android:clickable="true">
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/search_gradient"
+                >
+
+
+                <LinearLayout
+                    android:id="@+id/bpmeasuring"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/BPup"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:id="@+id/bpup"
+                            android:src="@drawable/redup"
+                            android:layout_marginLeft="20dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:gravity="center"
+                            android:textSize="20dp"
+                            android:id="@+id/Systole"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="110"/>
+
+
+
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/BP"
+                        android:layout_below="@+id/BPup"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:id="@+id/bpdown"
+                            android:src="@drawable/reddown"
+                            android:layout_marginLeft="20dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            android:gravity="center"
+                            android:textSize="20dp"
+                            android:id="@+id/Diastole"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="70"/>
+
+
+
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:text="mmHg"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/bpmeasuring"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_bp"
+                        android:layout_marginTop="20dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:id="@+id/bpinfo"
+                        android:src="@drawable/ic_keyboard_arrow_right_black_24dp"/>
+
+                </LinearLayout>
+
+
+
+
+            </RelativeLayout>
+
+
+
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="16dp"
+            android:id="@+id/sleepcard"
+            android:layout_marginLeft="16dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp"
+
+
+            android:clickable="true"
+
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/search_gradient"
+                >
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:gravity="center"
+                    android:id="@+id/sleep">
+                    <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                        android:id="@+id/sleepmeasurement"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:layout_centerHorizontal="true"
+                        app:background_progressbar_color="#FFCDD2"
+                        app:background_progressbar_width="6dp"
+                        app:progressbar_color="#F44336"
+                        app:progress="50"
+                        app:progressbar_width="6dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="70\nBPM"
+                        android:textSize="20dp"
+                        android:id="@+id/sleepmeasurementtext"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"/>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sleep"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="60dp"
+                        android:src="@drawable/ic_sleep"
+                        android:layout_marginTop="20dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:id="@+id/sleepinfo"
+                        android:src="@drawable/ic_keyboard_arrow_right_black_24dp"/>
+
+                </LinearLayout>
+
+
+
+
+            </RelativeLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/recoverycard"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp"
+
+
+            android:clickable="true"
+
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/search_gradient"
+                >
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:gravity="center"
+                    android:id="@+id/brain">
+                    <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                        android:id="@+id/brainmeasurement"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:layout_centerHorizontal="true"
+                        app:background_progressbar_color="#FFCDD2"
+                        app:background_progressbar_width="6dp"
+                        app:progressbar_color="#F44336"
+                        app:progress="50"
+                        app:progressbar_width="6dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="80%"
+                        android:id="@+id/brainrecovery"
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/brain"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="60dp"
+                        android:src="@drawable/ic_brain"
+                        android:layout_marginTop="20dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:id="@+id/recoveryinfo"
+                        android:src="@drawable/ic_keyboard_arrow_right_black_24dp"/>
+
+                </LinearLayout>
+
+
+
+
+            </RelativeLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+    </GridLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="safe">#4caf50</color>
+    <color name="gray">#cfd8dc</color>
+    <color name="danger">#ff3d00</color>
+    <color name="average">#FF9F31</color>
+    <color name="progress">#039be5</color>
+    <color name="emp">#b3e5fc</color>
+    <color name="progress_clicked">#03a9f4</color>
+</resources>

@@ -1,0 +1,206 @@
+[
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/drawable_ic_oxygen.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/drawable/ic_oxygen.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/drawable_ic_keyboard_arrow_right_black_24dp.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/drawable/ic_keyboard_arrow_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/drawable_dozeelogo.png.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/drawable/dozeelogo.png"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/drawable_redup.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/drawable/redup.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/drawable_circle.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/drawable/circle.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/layout_graphcard.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/layout/graphcard.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/drawable_reddown.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/drawable/reddown.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/drawable_ic_sleep.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/drawable/ic_sleep.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/drawable_ic_heart.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/drawable/ic_heart.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/menu_activity_list_of_words_drawer.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/menu/activity_list_of_words_drawer.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/xml_provider_paths.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/xml/provider_paths.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/drawable_ic_share_black_24dp.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/drawable/ic_share_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/drawable_roundedbutton.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/drawable/roundedbutton.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/drawable_ic_chevron_left_black_24dp.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/drawable/ic_chevron_left_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/drawable_ic_call_black_24dp.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/drawable/ic_call_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/drawable_ic_email_black_24dp.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/drawable/ic_email_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/drawable_userimage.png.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/drawable/userimage.png"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/drawable_orangeup.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/drawable/orangeup.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/drawable_ic_wa.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/drawable/ic_wa.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/drawable_ic_keyboard_arrow_down_black_24dp.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/drawable/ic_keyboard_arrow_down_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/drawable_ic_chevron_right_black_24dp.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/drawable/ic_chevron_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/drawable_ic_sun.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/drawable/ic_sun.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/layout_framelayout1.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/layout/framelayout1.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/drawable_search_gradient.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/drawable/search_gradient.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/drawable_ic_brain.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/drawable/ic_brain.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/drawable_ic_arrow_drop_down_black_24dp.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/drawable/ic_arrow_drop_down_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/drawable_ic_vital.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/drawable/ic_vital.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/drawable_ic_bpm.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/drawable/ic_bpm.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/layout_customdialog.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/layout/customdialog.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/drawable_ic_arrow_drop_up_black_24dp.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/drawable/ic_arrow_drop_up_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/drawable_ic_pin.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/drawable/ic_pin.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/drawable_ic_bp.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/drawable/ic_bp.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/drawable_greenup.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/drawable/greenup.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/layout_activity_splash.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/drawable_greendown_24dp.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/drawable/greendown_24dp.xml"
+    },
+    {
+        "merged": "/Users/rahul/Downloads/DozeeApp/app/build/intermediates/res/merged/debug/drawable_orangedown.xml.flat",
+        "source": "/Users/rahul/Downloads/DozeeApp/app/src/main/res/drawable/orangedown.xml"
+    }
+]

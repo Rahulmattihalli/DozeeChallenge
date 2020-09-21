@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e0f7fa"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="30dp"
+    android:layout_marginTop="15dp"
+    android:backgroundTint="#e1f5fe"
+
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/userimage"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="John Doe"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"/>
+
+
+
+
+<ImageButton
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/ic_share_black_24dp"
+    android:backgroundTint="@android:color/transparent"
+    android:layout_gravity="end"
+    android:id="@+id/share"
+    android:clickable="true"
+
+    android:layout_marginLeft="150dp"
+    android:layout_marginRight="5dp"
+    />
+
+
+</LinearLayout>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#29b6f6"
+            app:cardUseCompatPadding="true"
+            android:layout_margin="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+               >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Hello Rahul\nHow are you feeling today?"
+                    android:textStyle="bold"
+                    android:id="@+id/message"
+                    android:textSize="18dp"
+                    android:textAlignment="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_margin="8dp"
+                   />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.7"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ic_sun"/>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+               >
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:text="Fresh"
+                    android:id="@+id/fresh"
+                    android:clickable="true"
+                    android:hapticFeedbackEnabled="true"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/roundedbutton"
+                    />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:text="Good"
+                    android:hapticFeedbackEnabled="true"
+                    android:id="@+id/good"
+                    android:background="@drawable/roundedbutton"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:text="Weak"
+                    android:id="@+id/weak"
+                    android:hapticFeedbackEnabled="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/roundedbutton"
+                    />
+
+
+            </LinearLayout>
+
+            </LinearLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Daily"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:background="@drawable/roundedbutton"
+                android:textStyle="bold"
+                android:focusable="true"
+                android:soundEffectsEnabled="true"
+                android:id="@+id/daily"
+                android:backgroundTint="#039be5"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Weekly"
+                android:id="@+id/weekly"
+                android:clickable="true"
+                android:soundEffectsEnabled="true"
+                android:layout_margin="10dp"
+                android:focusable="true"
+                android:background="@drawable/roundedbutton"
+                android:textStyle="bold"
+                android:backgroundTint="#039be5"/>
+
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Monthly"
+                android:id="@+id/monthly"
+                android:clickable="true"
+                android:focusable="true"
+                android:soundEffectsEnabled="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/roundedbutton"
+                android:textStyle="bold"
+                android:backgroundTint="#039be5"/>
+
+        </LinearLayout>
+
+
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_container"
+/>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    </ScrollView>
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottombar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#039be5"
+
+       android:layout_gravity="bottom"
+       app:menu="@menu/activity_list_of_words_drawer"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_call_black_24dp"
+        android:backgroundTint="#0288d1"
+        android:id="@+id/call"
+        app:layout_anchor="@id/bottombar"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

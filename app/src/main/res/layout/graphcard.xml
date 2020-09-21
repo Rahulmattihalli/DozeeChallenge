@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:gravity="center">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        android:layout_margin="15dp"
+       android:background="@drawable/roundedbutton"
+        android:backgroundTint="#b3e5fc"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last 7 days Trend\nClick to read the value"
+                android:textStyle="bold"
+                android:textColor="#01579b"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+                    <com.hadiidbouk.charts.ChartProgressBar
+                        android:id="@+id/ChartProgressBar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"
+                        app:hdBarCanBeClick="true"
+                        app:hdBarHeight="170dp"
+                        app:hdBarWidth="7dp"
+                        app:hdBarRadius="10dp"
+                        app:hdMaxValue="200"
+                        app:hdEmptyColor="@color/emp"
+                        app:hdProgressColor="@color/progress"
+                        app:hdProgressClickColor="@color/progress_clicked"
+                        app:hdPinBackgroundColor="@color/pin_background"
+                        app:hdPinTextColor="@android:color/black"
+                        app:hdPinPaddingBottom="5dp"
+                        app:hdBarTitleColor="@color/bar_title_color"
+                        app:hdBarTitleTxtSize="12sp"
+                        app:hdPinTxtSize="17sp"
+                        app:hdPinMarginTop="10dp"
+                        app:hdPinMarginBottom="55dp"
+                        app:hdPinMarginEnd="22dp"
+                        app:hdBarTitleMarginTop="9dp"
+                        app:hdPinDrawable="@drawable/ic_pin"
+                        android:visibility="invisible"
+                        app:hdProgressDisableColor="@color/progress_disable"
+                        app:hdBarTitleSelectedColor="#bbdefb"/>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Close"
+                android:layout_margin="10dp"
+                android:backgroundTint="#2979ff"
+                android:id="@+id/close"
+                android:background="@drawable/roundedbutton"
+                />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+    </RelativeLayout>
